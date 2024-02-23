@@ -3,11 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instalação Vue via CDN</title>
+    <title>Estudos vueJs</title>
 </head>
 <body>
     <div id="app">
-        Meu nome é {{name}} e tenho {{idade}} anos!
+        <form id="app_form">
+            <input type="text" v-model="Input_name" placeholder="Digite o nome">
+            <input type="submit" value="enviar" v-on:click="submitForm">
+       </form>
+
+       <p>Meu nome é {{name}}</p> 
+       <p>Meu nome é {{Input_name}}</p> <!--Atualiza em tempo real-->
     </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>

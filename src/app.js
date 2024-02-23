@@ -1,10 +1,16 @@
 const app = Vue.createApp({
     data() {
      return {
-        name: "Kadu",
-        idade:26
+        name: "",
+        Input_name: ""
      }
-    }
+    },methods: {
+        submitForm(event) {
+            event.preventDefault();
+
+            this.name = this.Input_name
+        }
+      }
 })
    
 app.mount('#app')
