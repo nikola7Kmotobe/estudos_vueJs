@@ -3,6 +3,7 @@ import
 <script setup>
 import primeiro_componente  from './components/primeiro_componente.vue' // importando o compontente filho
 import segundo_componente from './components/segundo _componente.vue'
+import lifecycle_hooks from './components/lifecycle_hooks.vue';
 </script>
 
 <template>
@@ -10,4 +11,6 @@ import segundo_componente from './components/segundo _componente.vue'
   <primeiro_componente />
   <h1>Segundo Componente Filho</h1>
   <segundo_componente />
+  <h1>Terceiro Componente Filho</h1>
+  <lifecycle_hooks />
 </template>
