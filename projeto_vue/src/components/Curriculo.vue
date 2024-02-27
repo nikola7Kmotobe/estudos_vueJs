@@ -1,0 +1,15 @@
+<template>
+    <div>
+        <p>Traballho com as tecnologias</p>
+        <ul>
+            <li>C#</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+        </ul>
+    </div>
+</template>
+<script>
+    export default{
+        name:"Curriculo"
+    }
+</script>
