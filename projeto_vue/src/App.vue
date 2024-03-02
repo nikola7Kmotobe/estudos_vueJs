@@ -19,3 +19,10 @@ import diretivas from './components/diretivas.vue';
   <h1>Quinto Componente Filho</h1>
   <diretivas/>
 </template>
+
+<style>
+  body{
+    background-color: black;
+    color: white;
+  }
+</style>

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="div">
         <h1>Testanto diretivas! v-if</h1>
         <p v-if="Verdadeiro">Vou aparecer pois mee v-if é verdadeiro</p>
         <p v-else>eu não pois sou falso!</p>
@@ -33,3 +33,10 @@
         }
     }
 </script>
+
+<style>
+    .div{
+    background-color: gray;
+    color: greenyellow;
+    }
+</style>
