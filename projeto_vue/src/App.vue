@@ -6,6 +6,7 @@ import lifecycle_hooks from './components/lifecycle_hooks.vue';
 import Pessoa from './components/Pessoa.vue';
 import diretivas from './components/diretivas.vue';
 import diretiva_v_for from './components/diretiva_v_for.vue';
+import metodos from './components/metodos.vue';
 </script>
 
 <template>
@@ -19,7 +20,10 @@ import diretiva_v_for from './components/diretiva_v_for.vue';
   <Pessoa/>
   <h1>Quinto Componente Filho</h1>
   <diretivas/>
+  <h1>Sexto Componente Filho</h1>
   <diretiva_v_for/>
+  <h1>Sétimo Componente Filho</h1>
+  <metodos/>
 </template>
 
 <style>
