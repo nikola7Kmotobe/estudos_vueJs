@@ -1,7 +1,7 @@
 <template>
     <div>
        <p>Meu nome é: Kadu</p> 
-       <Curriculo/>
+       <Curriculo :linguagem="linguagem"/>
     </div>
 </template>
 
@@ -10,6 +10,11 @@ import Curriculo from './Curriculo.vue';
 
     export default{
         nome:"Pessoa",
+        data(){
+            return{
+                linguagem: "Cobol"
+            }
+        },
         components:{
             Curriculo
         }
