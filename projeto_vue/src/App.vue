@@ -5,6 +5,7 @@ import segundo_componente from './components/segundo _componente.vue'
 import lifecycle_hooks from './components/lifecycle_hooks.vue';
 import Pessoa from './components/Pessoa.vue';
 import diretivas from './components/diretivas.vue';
+import diretiva_v_for from './components/diretiva_v_for.vue';
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import diretivas from './components/diretivas.vue';
   <Pessoa/>
   <h1>Quinto Componente Filho</h1>
   <diretivas/>
+  <diretiva_v_for/>
 </template>
 
 <style>
